@@ -13,29 +13,30 @@
 }
 
 .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 2px solid white;
   border-radius: 10px;
   padding: 10px 20px;
   text-align: center;
-  display: flex;
-  align-items: center;
 }
 
 .title p {
   position: relative;
-  left: 120px;
+  padding: 0 210px 0 210px;
 }
 
 .logo {
+  position: relative;
   width: 60px;
   height: 60px;
-  margin-right: 10px;
 }
 
 .secondLogo {
+  position: relative;
   width: 60px;
   height: 60px;
-  margin-left: 220px;
 }
 
 .grid {
@@ -49,7 +50,7 @@
   padding: 1.5rem;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .qualiContainer {
@@ -58,9 +59,9 @@
 }
 
 .qualiLogo {
-  width: 60px;
+  width: 65px;
   height: 45px;
-  margin-bottom: 10px;
+  margin: 0 32px 5px 0;
 }
 
 .co2Container {
@@ -71,7 +72,7 @@
 .co2Logo {
   width: 60px;
   height: 45px;
-  margin-bottom: 10px;
+  margin: 0 115px 5px 0;
 }
 
 @media (max-width: 600px) {

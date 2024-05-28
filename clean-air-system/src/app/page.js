@@ -21,17 +21,16 @@ export default function Home() {
               <img src="/images/quality.png" alt="Qualidade do Ar Logo" className={styles.qualiLogo} />
               <h2>Qualidade do Ar</h2>
             </div>
-            {/* Incluir dados da qualidade do ar aqui /}
+           
             <p>Dados relacionados à qualidade do ar aqui...</p>
           </div>
 
           <div className={styles.card}>
             <div className={styles.co2Container}>
-              <img src="/images/logoCo2.png" alt="CO2 Logo" className={styles.co2Logo} />
+              <img src="/images/logo-co2.png" alt="CO2 Logo" className={styles.co2Logo} />
               <h2>CO2</h2>
             </div>
-            {/ Incluir dados do CO2 aqui */}
-            <p>Dados relacionados ao CO2 aqui...</p>
+            <p>Dados relacionados ao CO² aqui...</p>
           </div>
         </div>
       </main>
