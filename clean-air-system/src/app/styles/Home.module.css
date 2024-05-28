@@ -1,0 +1,81 @@
+.container {
+  background-color: rgba(0, 68, 255, 0.541);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.title {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.title p {
+  position: relative;
+  left: 120px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.secondLogo {
+  width: 60px;
+  height: 60px;
+  margin-left: 220px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
+}
+
+.qualiContainer {
+  display: flex;
+  align-items: center;
+}
+
+.qualiLogo {
+  width: 60px;
+  height: 45px;
+  margin-bottom: 10px;
+}
+
+.co2Container {
+  display: flex;
+  align-items: center;
+}
+
+.co2Logo {
+  width: 60px;
+  height: 45px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
